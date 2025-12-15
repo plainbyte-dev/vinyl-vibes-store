@@ -1,10 +1,7 @@
-// Product card component with hover effects and animations
-// Displays product image, name, price, rating, and add to cart button
-
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Star, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Product } from '@/data/products';
+import { Product } from '@/types/Product';
 import { useCart } from '@/context/CartContext';
 import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
